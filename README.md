@@ -27,11 +27,11 @@
 
 - **随手提问**
 
-  [![随手提问示例](docs/video/1877_1753199255.png)](docs/video/1877_1753199255.mp4)
+  https://github.com/user-attachments/assets/d9e07d95-fc0c-4e6d-915f-d993a2bf3a6f
 
 - **随手计算**
 
-  [![随手计算示例](docs/video/1878_1753199266.png)](docs/video/1878_1753199266.mp4)
+  https://github.com/user-attachments/assets/00aae047-3306-44ab-abe3-748be537f15d
 
 ## 🏁 如何开始 (Getting Started)
 
