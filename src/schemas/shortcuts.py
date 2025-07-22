@@ -1,6 +1,6 @@
-from fastapi import APIRouter
+from pydantic import BaseModel
 
-router_shortcuts = APIRouter(
-    prefix="/shortcuts",
-    tags=["shortcuts-快捷指令"],
-)
+
+class ShortcutChatWithImage(BaseModel):
+    query: str
+    image_base64: str
