@@ -25,13 +25,13 @@
 
 ## 示例
 
-- 随手问题
+- **随手提问**
 
-<video src="docs/video/1877_1753199255.mp4" width="400" controls></video>
+  [![随手提问示例](docs/video/1877_1753199255.png)](docs/video/1877_1753199255.mp4)
 
-- 随手计算
+- **随手计算**
 
-<video src="docs/video/1878_1753199266.mp4" width="400" controls></video>
+  [![随手计算示例](docs/video/1878_1753199266.png)](docs/video/1878_1753199266.mp4)
 
 ## 🏁 如何开始 (Getting Started)
 
