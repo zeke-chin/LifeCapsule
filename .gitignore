@@ -63,3 +63,9 @@ target/
 .vscode/
 .venv
 .env
+
+date/
+
+# Ignore data directory contents, but keep the directory
+data/*
+!data/.gitkeep

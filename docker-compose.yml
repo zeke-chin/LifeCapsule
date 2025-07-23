@@ -9,10 +9,10 @@ services:
       POSTGRES_DB: postgres
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
-      - ./postgres-init:/docker-entrypoint-initdb.d
+      - ./init_script/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   neo4j:
-    image: neo4j:5.25.0
+    image: neo4j:5
     ports:
       - 7474:7474
       - 7687:7687
