@@ -69,3 +69,4 @@ date/
 # Ignore data directory contents, but keep the directory
 data/*
 !data/.gitkeep
+dev.*

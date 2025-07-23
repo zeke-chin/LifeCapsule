@@ -1,4 +1,5 @@
 import os
+
 from dotenv import load_dotenv
 
 # 从 .env 文件加载环境变量
@@ -19,6 +20,16 @@ class Config:
     # 基础模型配置
     BASE_MODEL: str = os.getenv("BASE_MODEL")
     BASE_VLM_MODEL: str = os.getenv("BASE_VLM_MODEL")
+
+    # Neo4j 配置
+    NEO4J_URL: str = os.getenv("NEO4J_URL")
+    NEO4J_USERNAME: str = os.getenv("NEO4J_USERNAME")
+    NEO4J_PASSWORD: str = os.getenv("NEO4J_PASSWORD")
+
+    # Qdrant 配置
+    QDRANT_HOST: str = os.getenv("QDRANT_HOST")
+    QDRANT_PORT: int = int(os.getenv("QDRANT_PORT"))
+    QDRANT_API_KEY: str = os.getenv("QDRANT_API_KEY")
 
 
 # 创建一个 Config 类的全局实例，方便其他模块导入使用
